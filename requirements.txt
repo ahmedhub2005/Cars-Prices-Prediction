@@ -2,6 +2,5 @@ scikit-learn
 numpy
 pandas
 matplotlib
-re
 seaborn
 pickle
