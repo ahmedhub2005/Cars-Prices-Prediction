@@ -80,7 +80,7 @@ Fuel_Types = category = st.selectbox("Select Fuel Types", ['plug in hyrbrid' ,'P
  'Hybrid / Plug-in'])
 Engines = st.text_input('Engines')
 HorsePower = st.text_input('HorsePower (e.g., 963 hp)')
-Cleaned_Capacity = st.text_input('Cleaned Capacity(CC/Battery Capacity)')
+Cleaned_Capacity = st.text_input('Capacity(CC/Battery Capacity)')
 Total_Speed = st.text_input('Total Speed (e.g., 250 km/h)')
 Performance = st.text_input('Performance(0 - 100 )KM/H (e.g., 7.2 sec)')
 Seats = st.text_input('Seats')
@@ -130,6 +130,7 @@ if con:
 
         except Exception as e:
             st.sidebar.error(f"An error occurred during prediction:\n\n{e}")
+
 
 
 
